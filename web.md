@@ -1050,5 +1050,7 @@ nodejs文档参考：<https://nodejs.org/dist/latest-v10.x/docs/api/>
 - http协议的良好支持
 - 服务器异常恢复
 - 日志保存和问题定位
+- 域名申请
+- 静态资源cdn
   
 等等，具体就不详细展开了。
