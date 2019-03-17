@@ -4,4 +4,4 @@
 
 ## [QQ空间的web架构](./Qzone.md)
 
-## [产品与QQ空间开发](./relation.md)
+## [产品与QQ空间前端开发之前的故事](./relation.md)
