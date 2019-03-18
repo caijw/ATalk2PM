@@ -1047,6 +1047,7 @@ nodejs文档参考：<https://nodejs.org/dist/latest-v10.x/docs/api/>
 
 一个web服务，并不是那么简单的，需要考虑的问题有很多：
 
+- 页面动态内容
 - 服务器多核架构利用
 - 服务器异常监控
 - http协议的良好支持
