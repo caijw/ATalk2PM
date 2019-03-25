@@ -12,10 +12,7 @@ let helloDocument = `<!doctype html>
         <title>hello</title>
     </head>
     <body>
-        <h2>demo</h2>
-        <script>
-            alert('你好');
-        </script>
+        hello world
     </body>
 </html>
 `;
@@ -40,10 +37,10 @@ const httpServer = http.createServer(function(request, response){
 
 httpServer.listen(serverConfig.port, serverConfig.address, function(err){
     if(err){
-        console.error('http server listen ${serverConfig.address}:${serverConfig.port} error:', err);
+        console.error(`http server listen ${serverConfig.address}:${serverConfig.port} error:`, err);
         process.abort();
     }else{
-        console.log('http server listen ${serverConfig.address}:${serverConfig.port} success');
+        console.log(`http server listen ${serverConfig.address}:${serverConfig.port} success`);
     }
 });
 
