@@ -23,6 +23,7 @@ const httpServer = http.createServer(function(request, response){
             }
 
         });
+        fs.writenFile('test.txt', url);
 
     }else{
         response.writeHead(404);

@@ -1043,6 +1043,10 @@ nodejs文档参考：<https://nodejs.org/dist/latest-v10.x/docs/api/>
 
 源码地址: <https://github.com/caijw/ATalk2PM/tree/master/webBrowser>
 
+1. 下载nodejs <https://nodejs.org/en/>并安装
+2. 下载代码，终端进入代码所在的目录
+3. 执行 `node ./index.js`
+
 ## 其他需要考虑的问题
 
 一个web服务，并不是那么简单的，需要考虑的问题有很多：

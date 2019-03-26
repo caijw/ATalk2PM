@@ -30,7 +30,7 @@ const httpServer = http.createServer(function(request, response){
         response.end(helloDocument);
     }else{
         response.writeHead(404);
-        response.end();
+        response.end('no content');
     }
 
 });
